@@ -79,7 +79,9 @@ Navigate to http://127.0.0.1:8000/admin/ and log in using the superuser credenti
 ### API Endpoints
 
 **1. Upload CSV File**
-**URL: /movies/upload**
+```
+**URL: http://127.0.0.1:8000/movies/upload**
+```
 Method: POST
 Description: Upload a CSV file containing movie data.
 
@@ -90,7 +92,10 @@ In the Body, choose form-data.
 Add a key called file, set its type to File, and choose a CSV file to upload.
 
 2. View Movies with Pagination, Filtering, and Sorting
-**URL: /movies/movies**
+
+```
+**URL: http://127.0.0.1:8000/movies/movies**
+```
 Method: GET
 Description: Get a paginated list of movies, filter by release year and language, and sort by release date or rating.
 
