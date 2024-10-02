@@ -80,7 +80,7 @@ Navigate to http://127.0.0.1:8000/admin/ and log in using the superuser credenti
 
 **1. Upload CSV File**
 ```
-**URL: http://127.0.0.1:8000/movies/upload**
+URL: http://127.0.0.1:8000/movies/upload
 ```
 Method: POST
 Description: Upload a CSV file containing movie data.
@@ -94,7 +94,7 @@ Add a key called file, set its type to File, and choose a CSV file to upload.
 2. View Movies with Pagination, Filtering, and Sorting
 
 ```
-**URL: http://127.0.0.1:8000/movies/movies**
+URL: http://127.0.0.1:8000/movies/movies
 ```
 Method: GET
 Description: Get a paginated list of movies, filter by release year and language, and sort by release date or rating.
@@ -113,12 +113,14 @@ Sort by release date or vote average using the ordering query parameter.
 Invalid CSV format: If the uploaded file is not in CSV format, the API returns an error message.
 Invalid date format: The API expects dates to be in YYYY-MM-DD format.
 
-   
+## Below are some screenshots:
+![image](https://github.com/user-attachments/assets/e3a61da2-f193-41fe-b8e8-acc1f99d9972)
 
-  
-  
-   
+![image](https://github.com/user-attachments/assets/09a9391a-b89b-4fc7-b993-c66e356146af)
 
-7. 
+![image](https://github.com/user-attachments/assets/2fe4f6b3-1842-44e4-8d38-e3cb9e89ddb4)
 
-8. 
+![image](https://github.com/user-attachments/assets/f8155bcc-4cb7-4ff1-aec7-09dc069772ad)
+
+
+
