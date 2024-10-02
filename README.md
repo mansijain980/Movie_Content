@@ -53,7 +53,20 @@ MySQL
    ~~~
 
    Update the DATABASES section in settings.py to configure MySQL:
-   ![image](https://github.com/user-attachments/assets/feaf7d0d-53db-4243-9ed8-845980e6d3d4)
+
+   ```
+   DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'movie_db',
+        'USER': 'your_username',
+        'PASSWORD': 'your_password',
+        'HOST': 'localhost',  # Or your MySQL host
+        'PORT': '3306',
+    }
+}
+   ```
+
 
 
 5. Run migrations to set up the database schema:
