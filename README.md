@@ -54,7 +54,7 @@ MySQL
 
    Update the DATABASES section in settings.py to configure MySQL:
 
-   ```
+   ~~~
    DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
@@ -64,8 +64,8 @@ MySQL
         'HOST': 'localhost',  # Or your MySQL host
         'PORT': '3306',
     }
-}
-   ```
+   ~~~
+
 
 
 
