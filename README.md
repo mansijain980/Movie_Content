@@ -102,9 +102,9 @@ Description: Get a paginated list of movies, filter by release year and language
 ## Pagination
 The MoviePagination class controls pagination:
 
-page_size: Default is 2 movies per page.
-page_size_query_param: Allows the client to customize the page size (maximum of 100).
-Filtering and Sorting
+page_size: Default is 50 movies per page.<br />
+page_size_query_param: Allows the client to customize the page size (maximum of 100).<br />
+Filtering and Sorting.
 Filter by year of release using the release_date query parameter.
 Filter by language using the original_language query parameter.
 Sort by release date or vote average using the ordering query parameter.
